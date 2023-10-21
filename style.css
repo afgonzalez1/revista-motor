@@ -71,21 +71,21 @@ body {
     display: flex;
   }
   
-  .inicio-items li {
+  .inicio-items  {
     list-style: none;
     margin-left: 1.5rem;
     margin-bottom: 0.5rem;
     font-size: 1.2rem;
   }
   
-  .inicio-items a {
+  .inicio-items  {
     text-decoration: none;
     color: #444;
     font-weight: 500;
     transition: color 0.3s ease-in-out;
   }
   
-  .inicio-items a:hover {
+  .inicio-items :hover {
     color: #626464;
     transition: color 0.3s ease-in-out;
   }
@@ -133,11 +133,11 @@ body {
     flex-wrap: wrap;
   }
   
-  #about h2 {
+  #about  {
     font-size: 2.3rem;
   }
   
-  #about p {
+  #about  {
     font-size: 1.2rem;
     color: #555;
   }
@@ -495,7 +495,7 @@ body {
   
     .form-container {
       color: #4a22eb
-      width: 90%;
+      
     }
   
     .contact-container {
